@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "一个值得收藏的前端博客，里面涵盖了html,css,js,jquery,vue,react,axios等前端关键技术。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": "https://github.com/chenggang321/blog.git",
+  "author": "chenggang <1129137164@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.8.2"
+  }
+}

@@ -1,4 +1,8 @@
 const path = require('path')
+const { autoGenSideBarConfig } = require('./utils')
+
+// const targetPath = path.join(__dirname, '../note');
+// autoGenSideBarConfig(targetPath)
 
 module.exports = {
   theme:"",
@@ -26,14 +30,15 @@ module.exports = {
       { text: '随记博客', link: '/note/' },
     ],
     sidebar: {
-      '/note/': [
-        {
-          title: 'javascript',
-          children:[
-              'javascript/a-problem-with-tar-and-curl',
-          ]
-        }
-      ]
+      // '/note/': [
+      //   {
+      //     title: 'javascript',
+      //     children:[
+      //         'javascript/a-problem-with-tar-and-curl',
+      //     ]
+      //   }
+      // ]
+      '/note/': autoGenSideBarConfig(path.join(__dirname, '../note'))
     },
     lastUpdated: 'Last Updated'
   },

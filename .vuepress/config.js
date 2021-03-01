@@ -1,8 +1,8 @@
 const path = require('path')
 const { autoGenSideBarConfig } = require('./utils')
 
-// const targetPath = path.join(__dirname, '../note');
-// autoGenSideBarConfig(targetPath)
+const sideBarConfig = autoGenSideBarConfig(path.join(__dirname, '../note'))
+const defaultBlogPath = '/note/' + sideBarConfig[0].children[0]
 
 module.exports = {
   title: "前端博客",
@@ -14,19 +14,12 @@ module.exports = {
   markdown: {
     lineNumbers: false,
   },
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@assets': path.resolve(__dirname, '../assets')
-      }
-    }
-  },
   themeConfig: {
     repo: 'https://github.com/chenggang321/blog',
     sidebarDepth: 2,
     nav: [
       { text: '主页', link: '/' },
-      { text: '随记博客', link: '/note/' },
+      { text: '随记博客', link: defaultBlogPath },
     ],
     sidebar: {
       // '/note/': [
@@ -37,7 +30,7 @@ module.exports = {
       //     ]
       //   }
       // ]
-      '/note/': autoGenSideBarConfig(path.join(__dirname, '../note'))
+      '/note/': sideBarConfig
     },
     lastUpdated: 'Last Updated'
   },

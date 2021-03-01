@@ -1,5 +1,5 @@
 ---
 home: true
-actionText: 快速上手 →
-actionLink: /note/
+actionText: 开始阅读 →
+actionLink: /note/javascript/a-problem-with-tar-and-curl
 ---

@@ -5,8 +5,8 @@ const sideBarConfig = autoGenSideBarConfig(path.join(__dirname, '../note'))
 const defaultBlogPath = '/note/' + sideBarConfig[0].children[0]
 
 module.exports = {
-  title: "前端博客",
-  description: "一个值得收藏的前端博客，里面涵盖了html,css,js,jquery,vue,react,axios等前端关键技术。",
+  title: "博客",
+  description: "一个值得收藏的博客，涵盖了前端、后端、运维等关键技术。",
   base: "/",
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],

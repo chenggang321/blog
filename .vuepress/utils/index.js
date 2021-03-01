@@ -20,6 +20,11 @@ function autoGenSideBarConfig(dirPath) {
     childDir.forEach(dir => {
         const children = [];
         const {childFiles} = getDirChild(`${dirPath}/${dir}`)
+        // 排序
+        childFiles.sort((a,b)=>{
+            const splitBy = (str,split='-')=> +str.split(split)[0]
+            return  splitBy(a)-splitBy(b)
+        })
         childFiles.forEach(files => children.push(`${dir}/${files}`))
         if(childFiles.length){
             config.push({

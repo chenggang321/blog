@@ -88,7 +88,7 @@ function get (source, path, defaultValue = undefined) {
 }
 ```
 
-![](../assets/lodash-get.png)
+![](./assets/lodash-get.png)
 
 ## You Dont Need Lodash: 可选链
 

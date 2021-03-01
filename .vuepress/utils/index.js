@@ -1,7 +1,19 @@
 const path = require('path')
 const fs = require('fs')
 
-// 根据目录结构生成配置
+/**
+ * 根据目录结构生成配置
+ * @param dirPath
+ * @returns {[
+ *     {
+ *     title: 'javascript',
+ *     children:[
+ *         'javascript/a-problem-with-tar-and-curl',
+ *     ]
+ *   }
+ *   ...
+ * ]}
+ */
 function autoGenSideBarConfig(dirPath) {
     const {childDir} = getDirChild(dirPath)
     let config = [];
@@ -38,10 +50,16 @@ function getDirChild(dirPath) {
     }
 }
 
-// const targetPath = path.join(__dirname, '../../note');
-// console.log(autoGenSideBarConfig(targetPath))
+function autoGenBarConfigByKey(key,basePath='../../'){
+    const config = autoGenSideBarConfig(path.join(__dirname, `${basePath}${key}`));
+    return {
+        config,
+        entryPath: `/${key}/` + config[0].children[0]
+    }
+}
 
 module.exports = {
-    autoGenSideBarConfig
+    autoGenSideBarConfig,
+    autoGenBarConfigByKey
 }
 

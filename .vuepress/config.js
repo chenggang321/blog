@@ -1,8 +1,4 @@
-const path = require('path')
-const { autoGenSideBarConfig } = require('./utils')
-
-const sideBarConfig = autoGenSideBarConfig(path.join(__dirname, '../note'))
-const defaultBlogPath = '/note/' + sideBarConfig[0].children[0]
+const { autoGenBarConfigByKey } = require('./utils')
 
 module.exports = {
   title: "博客",
@@ -19,18 +15,12 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       { text: '主页', link: '/' },
-      { text: '随记博客', link: defaultBlogPath },
+      { text: '随记', link: autoGenBarConfigByKey('note').entryPath },
+      { text: '学习笔记', link: autoGenBarConfigByKey('study').entryPath },
     ],
     sidebar: {
-      // '/note/': [
-      //   {
-      //     title: 'javascript',
-      //     children:[
-      //         'javascript/a-problem-with-tar-and-curl',
-      //     ]
-      //   }
-      // ]
-      '/note/': sideBarConfig
+      '/note/': autoGenBarConfigByKey('note').config,
+      '/study/': autoGenBarConfigByKey('study').config,
     },
     lastUpdated: 'Last Updated'
   },

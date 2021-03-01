@@ -9,7 +9,7 @@ module.exports = {
   description: "一个值得收藏的前端博客，里面涵盖了html,css,js,jquery,vue,react,axios等前端关键技术。",
   base: "/",
   head: [
-    ["link",{ rel: "icon",href: "/assets/logo.png" }]
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
   ],
   markdown: {
     lineNumbers: false,

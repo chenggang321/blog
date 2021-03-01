@@ -5,7 +5,6 @@ const { autoGenSideBarConfig } = require('./utils')
 // autoGenSideBarConfig(targetPath)
 
 module.exports = {
-  theme:"",
   title: "前端博客",
   description: "一个值得收藏的前端博客，里面涵盖了html,css,js,jquery,vue,react,axios等前端关键技术。",
   base: "/",

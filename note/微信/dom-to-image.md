@@ -1,7 +1,11 @@
 ---
 title: 如何把 DOM/HTML 转化为 JPG/PNG 图片并下载
 date: 2021-02-13 11:35
-
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
 ---
 
 # 如何把 DOM 转化为图片并下载

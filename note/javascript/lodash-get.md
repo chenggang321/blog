@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 如何实现 lodash.get 函数及可选链操作简化取值
 
 本篇文章简介 `lodash.get` 函数的实现以及可替代的可选链操作，源于我自己的仓库 [面试每日一题](https://github.com/shfshanyue/Daily-Question/issues)，其中记录了关于前端进阶及工程化的各种问题。心灵鸡汤之所以被抵制就是因为只有鸡汤没有勺子，别人也开始问我的仓库有没有答案了。因此我将写一大堆文章来捎带回答这些问题 ---- 如果有时间的话。

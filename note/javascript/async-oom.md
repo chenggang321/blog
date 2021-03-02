@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 关于 async/await 的两个 OOM 的示例
 
 两个在开发过程中因为使用 async/await 而导致的 OOM 示例，简单记录一下

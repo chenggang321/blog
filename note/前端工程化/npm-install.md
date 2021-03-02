@@ -1,3 +1,12 @@
+---
+categories:
+  - 前端工程化
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 在生产环境中使你的 npm i 速度提升 50%
 
 ![](./assets/npm.svg)

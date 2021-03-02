@@ -1,3 +1,10 @@
+---
+categories:
+  - http
+tags:
+  - 前端
+---
+
 # http 静态文件响应头的 ETag 如何生成
 
 关于 `etag` 的生成需要满足几个条件

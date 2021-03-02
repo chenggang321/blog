@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 如何实现类似 lodash.merge 的函数
 
 ## merge

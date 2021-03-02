@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 浏览器插件开发
 
 ## 创建 Chrome APP

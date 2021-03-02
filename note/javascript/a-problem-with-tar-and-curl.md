@@ -1,3 +1,10 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
 
 # 记录一个有关 curl 和重定向的小问题
 

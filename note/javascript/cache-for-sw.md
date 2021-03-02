@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # Service Worker 实践与在 create-react-app 中所遇到的问题解决方案
 
 ## 缓存策略

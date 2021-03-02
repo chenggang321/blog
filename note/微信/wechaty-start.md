@@ -3,6 +3,13 @@ title: 如何开发第一个微信机器人？
 date: 2020-06-29 19:36
 description: "你想每天定时向你的女朋友发一句早安吗？wechaty 是一个使用 typescript 开发的机器人，我已经使用 wechaty 做了很多关于有趣的自动化的工作。"
 ---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+  - node
+---
 
 # 如何开发一个微信机器人
 

@@ -1,3 +1,12 @@
+---
+categories:
+  - 前端工程化
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # ESM 大势所趋
 
 **由 `ESM` 的普及，而带来的打包工具的革命以及适用于 ESM 下一代 CDN 的发展，业务项目在生产环境开始使用原生的 ESM 代替以前的 Bundle 方案，从而导致开发体验及网站速度的大幅提升。**

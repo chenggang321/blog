@@ -1,3 +1,12 @@
+---
+categories:
+  - 前端工程化
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 团队编码规范约束最佳实践
 
 一千个读者，就有一千个哈姆雷特。

@@ -1,3 +1,11 @@
+---
+categories:
+  - typescript
+tags:
+  - 前端
+  - typescript
+---
+
 # typescript 高级技巧
 
 用了一段时间的 `typescript` 之后，深感中大型项目中 `typescript` 的必要性，它能够提前在编译期避免许多 bug，如很恶心的拼写问题。而越来越多的 `package` 也开始使用 `ts`，学习 `ts` 已是势在必行。

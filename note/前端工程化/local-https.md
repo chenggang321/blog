@@ -1,3 +1,12 @@
+---
+categories:
+  - 前端工程化
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 在本地环境为前端项目配置 https
 
 在使用某些 html API 时，`https` 是前置必须项，这要求我们在本地开发环境也能够配置 `https`。否则你要每次部署到测试环境才能预览效果，这对开发的敏捷度造成了极大的干扰。

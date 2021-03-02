@@ -1,3 +1,9 @@
+---
+categories:
+  - git
+tags:
+  - git
+---
 # 是谁改了我的代码
 
 前些月，写了一个关于 git 的表格，叫[Git Cheat Sheet](https://shfshanyue.github.io/cheat-sheets/git)，现分享一些有用的小技巧。另推荐一个非常不错的关于 git 小技巧的项目 [git-tips](https://github.com/git-tips/tips)。

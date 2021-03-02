@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 从数据库到前端，使用 enum 代替 constant number
 
 在我经历过几个以 node 为主的后端项目中，都有一个文件 `constant.js`。顾名思义，里边保存着各种常量，而大多是字符串与数字的对应关系。

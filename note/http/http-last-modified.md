@@ -1,3 +1,10 @@
+---
+categories:
+  - http
+tags:
+  - 前端
+---
+
 # 如果 http 响应头中 ETag 值改变了，是否意味着文件内容一定已经更改
 
 > 本篇文章由我的 [一日一题](https://github.com/shfshanyue/Daily-Question) 中的四个 `Issue` 组合而成

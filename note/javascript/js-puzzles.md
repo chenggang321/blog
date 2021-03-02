@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # You-Dont-Know-JS 疑难汇总
 
 最近我看了 You-Dont-Know-JS 的两个小册，在看书的过程中，为了方便以后索引与更深入的了解，也为了避免遗忘，我对每一册的较为复杂的点做了总结，编辑如下

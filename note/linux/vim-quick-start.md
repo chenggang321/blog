@@ -1,3 +1,11 @@
+---
+categories:
+  - linux
+tags:
+  - 运维
+  - linux
+---
+
 # vim 快速入门
 
 有一个段子。

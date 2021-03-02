@@ -1,3 +1,11 @@
+---
+categories:
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 由 GraphQL 来思考 API Design
 
 目前我已经写了一年多 QraphQL，也时常思考和 Rest API 的不同，以及对 API Design 的启发。

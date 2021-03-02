@@ -1,3 +1,12 @@
+---
+categories:
+  - 前端工程化
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 前端部署的发展历程
 
 前端一说起刀耕火种，那肯定紧随着前端工程化这一话题。随着 `react`/`vue`/`angular`，`es6+`，`webpack`，`babel`，`typescript` 以及 `node` 的发展，前端已经在逐渐替代过去 `script` 引 `cdn` 开发的方式了，掀起了工程化这一大浪潮。得益于工程化的发展与开源社区的良好生态，前端应用的可用性与效率得到了很大提高。

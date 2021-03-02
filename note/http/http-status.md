@@ -1,6 +1,9 @@
 ---
 date: 2020-10-22 20:39
-
+categories:
+  - http
+tags:
+  - 前端
 ---
 
 # 你见过 HTTP 哪些状态码

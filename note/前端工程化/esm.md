@@ -1,3 +1,12 @@
+---
+categories:
+  - 前端工程化
+  - JavaScript
+tags:
+  - 前端
+  - JavaScript
+---
+
 # 浏览器中的原生 ESM
 
 `Vite`、`ESBuild`、`Snowpack` 大火

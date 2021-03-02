@@ -9,9 +9,6 @@ tags:
   - devops
 categories:
   - 微信
-tags:
-  - 前端
-  - JavaScript
 ---
 
 # 黑客增长: 从博客引流到公众号

@@ -1,7 +1,6 @@
 ---
 title: 如何把类数组转化为数组
 key: 类数组,数组,稀疏数组,将类数组转化为数组
-discription: 首先，什么是类数组(Array Like)？一个简单的定义，如果一个对象有 length 属性值，则它就是类数组。
 date: 2020-01-13
 tags:
   - javascript

@@ -1,4 +1,5 @@
 ---
+title: 第三十七章-分而治之-widget
 categories:
   - 读书笔记
 tags:
@@ -6,7 +7,6 @@ tags:
   - JavaScript
 ---
 
-# 第三十七章-分而治之-widget
 widget（web widget 指的是一块可以在任意页面中执行的代码块）:widget模式是指借用web widget思想将页面分解成部件，针对部件开发，最终组合成完整页面。
 
 ```js

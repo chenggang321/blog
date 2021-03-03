@@ -1,12 +1,11 @@
 ---
+title: 第三十八章-三人行-MVC模式
 categories:
   - 读书笔记
 tags:
   - 前端
   - JavaScript
 ---
-
-# 第三十八章-三人行-MVC模式
 
 MVC模式即模型（model）-视图（view）-控制器（controller）,用一种将
 业务逻辑、数据、视图分离的方式组织架构代码

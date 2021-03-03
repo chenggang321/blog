@@ -1,11 +1,11 @@
 ---
+title: 第一章-灵活的JavaScript
 categories:
   - 读书笔记
 tags:
   - 前端
   - JavaScript
 ---
-# 第一章-灵活的JavaScript
 
 为了防止作用域的变量被覆盖，可以采用对象来保护变量，同时也防止了覆盖别人的变量 -- 用对象来收编变量
 

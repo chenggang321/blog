@@ -82,7 +82,14 @@ module.exports = {
     "author": "chenggang",
     "authorAvatar": "/avatar.jpg",
     "record": "皖ICP备17006327号-1",
-    "startYear": "2017"
+    "startYear": "2017",
+    vssueConfig: {
+      platform: 'github',
+      owner: 'chenggang321',
+      repo: 'blog',
+      clientId: '9c69857b275b46387b26',
+      clientSecret: 'aafd0b350ddbdf452eb22ad711ae88282735480d',
+    }
   },
   "markdown": {
     "lineNumbers": false

@@ -3,7 +3,6 @@ const { autoGenBarConfigByKey } = require('./utils')
 module.exports = {
   "title": "博客",
   "description": "一个值得收藏的博客，涵盖了前端、后端、运维等关键技术。",
-  "dest": "public",
   "head": [
     [
       "link",

@@ -1,7 +1,6 @@
 ---
 title: Canvas 与 SVG 画图对比小记
 date: 2018-07-23
-thumbnail: ""
 categories:
   - 前端
   - 后端

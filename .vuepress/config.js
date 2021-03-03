@@ -81,7 +81,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "chenggang",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
+    "record": "皖ICP备17006327号-1",
     "startYear": "2017"
   },
   "markdown": {

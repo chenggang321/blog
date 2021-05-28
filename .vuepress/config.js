@@ -29,6 +29,7 @@ module.exports = {
       },
       { text: '随记', link: autoGenBarConfigByKey('note').entryPath },
       { text: '学习笔记', link: autoGenBarConfigByKey('study').entryPath },
+      { text: 'web全栈', link: autoGenBarConfigByKey('web-full-stack').entryPath },
       {
         "text": "动态",
         "link": "/timeline/",
@@ -49,6 +50,7 @@ module.exports = {
     "sidebar": {
       '/note/': autoGenBarConfigByKey('note').config,
       '/study/': autoGenBarConfigByKey('study').config,
+      '/web-full-stack/': autoGenBarConfigByKey('web-full-stack').config,
     },
     "type": "blog",
     "blogConfig": {
